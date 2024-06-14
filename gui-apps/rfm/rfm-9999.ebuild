@@ -15,6 +15,7 @@ HOMEPAGE="https://gitee.com/guyuming76/rfm/"
 
 LICENSE="MIT"
 SLOT="0"
+EGIT_SUBMODULES=()
 
 RDEPEND="
 	>=dev-libs/glib-2.74
@@ -36,6 +37,7 @@ src_configure() {
 }
 
 src_install() {
+	export CalledByEbuild="YES"
 	default
 
 	save_config config.h
