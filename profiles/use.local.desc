@@ -2,3 +2,14 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+gui-wm/dwl:X - build with xwayland
+gui-wm/dwl:bemenu - install bemenu
+gui-wm/dwl:fcitx - install fcitx for Chinese input
+gui-wm/dwl:foot - install foot terminal emulator
+gui-wm/dwl:grim - install grim for screenshot
+gui-wm/dwl:imv - install imv as image viewer
+gui-wm/dwl:mpv - install mpv as video player
+gui-wm/dwl:rfm - install rfm as file manager
+gui-wm/dwl:waybar - install waybar
+gui-wm/dwl:wf-recorder - install wf-recorder as screen recorder
+gui-wm/dwl:wl-clipboard - install wl-clipboard
