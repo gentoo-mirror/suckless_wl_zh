@@ -12,10 +12,11 @@ fi
 
 DESCRIPTION="suckless style file manager"
 HOMEPAGE="https://gitee.com/guyuming76/rfm/"
-KEYWORDS="amd64"
 LICENSE="MIT"
-IUSE="+wayland"
+KEYWORDS="amd64"
 SLOT="0"
+IUSE="+wayland +locate"
+
 EGIT_SUBMODULES=()
 
 RDEPEND="
@@ -25,6 +26,13 @@ DEPEND="${RDEPEND}"
 BDEPEND="
 	virtual/pkgconfig
 	x11-libs/gtk+:3[wayland?]
+	app-text/cmark
+"
+RDEPEND="
+	locate? (
+		sys-apps/plocate
+	)
+	dev-vcs/git
 "
 
 src_prepare() {
