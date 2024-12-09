@@ -10,6 +10,7 @@ app-i18n/fcitx:opencc - Enable OpenCC engine (using app-i18n/opencc) for convert
 app-i18n/fcitx:pango - Enable support for x11-libs/pango
 app-i18n/fcitx:table - Install table input methods for Simplified Chinese
 app-i18n/fcitx:xkb - Enable support for XKB (required for fcitx-xkb, fcitx-xkbdbus, part of fcitx-keyboard)
+gui-apps/rfm:locate - install package for locate command
 gui-wm/dwl:X - build with xwayland
 gui-wm/dwl:bemenu - install bemenu
 gui-wm/dwl:fcitx - install fcitx for Chinese input
