@@ -11,8 +11,8 @@ app-i18n/fcitx:pango - Enable support for x11-libs/pango
 app-i18n/fcitx:table - Install table input methods for Simplified Chinese
 app-i18n/fcitx:xkb - Enable support for XKB (required for fcitx-xkb, fcitx-xkbdbus, part of fcitx-keyboard)
 gui-apps/rfm:git - build rfm with git integration feature
-gui-apps/rfm:linenoise-ng - install linenoise-ng package as alternative for gnu readline
 gui-apps/rfm:locate - install package for locate command
+gui-apps/rfm:reedline - install reedline (rust) in addition to gnu readline
 gui-wm/dwl:X - build with xwayland
 gui-wm/dwl:bemenu - install bemenu
 gui-wm/dwl:fcitx - install fcitx for Chinese input
